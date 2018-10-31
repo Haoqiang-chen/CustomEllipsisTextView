@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cc.aiknow.customellipsistextview.CustomEllipsisTextView
+        android:id="@+id/cusotmEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_text"
+        app:ellipsis="...全部"
+        app:limitLines="2"
+        app:ellipsisPosition="0"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <cc.aiknow.customellipsistextview.CustomEllipsisTextView
+        android:id="@+id/cusotmMIddle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_text"
+        app:ellipsis="...全部"
+        app:limitLines="1"
+        app:ellipsisPosition="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <cc.aiknow.customellipsistextview.CustomEllipsisTextView
+        android:id="@+id/customNone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_text"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
