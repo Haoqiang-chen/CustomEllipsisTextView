@@ -4,5 +4,7 @@
         <attr name="ellipsis" format="string"/>
         <attr name="limitLines" format="integer"/>
         <attr name="ellipsisPosition" format="integer"/>
+        <attr name="ellipsisColor" format="integer"/>
+        <attr name="ellipsisSizePx" format="integer"/>
     </declare-styleable>
 </resources>

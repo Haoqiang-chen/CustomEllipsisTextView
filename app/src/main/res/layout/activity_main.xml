@@ -24,6 +24,8 @@
         app:ellipsis="...全部"
         app:limitLines="1"
         app:ellipsisPosition="1"
+        app:ellipsisColor="@color/colorPrimary"
+        app:ellipsisSizePx="50"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
